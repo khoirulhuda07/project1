@@ -1,0 +1,149 @@
+body {
+	background-image: url("nam.jpg");
+	opacity: 0.7;
+
+}
+.navbar-logo {
+	color: white;
+
+}
+.table {
+	width: 100%;
+	margin-top: 21%;
+	text-align: center;
+	position: fixed;
+	font-size: 25px;
+	color: white;
+	order-radius: 5px;
+	padding: 5px;
+	border-color: white;
+	font-weight: bold;
+}
+.teks-menu{
+	font-size: 40px;
+	text-shadow: 1px 3px 5px blue;
+	color: blue;
+	width: 100%;
+	animation-name: kecil;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example {
+  0%   {color: blue;}
+  50%  {color: yellow;}
+  100% {color: red;}
+}
+.navbar{
+	background-color: #919196;
+	text-decoration: none;
+	display: flex;
+	position: fixed;
+	width: 100%;
+justify-content: space-between;
+border-bottom: 1px solid blue;
+top: 0;
+left: 0;
+}
+.navbar-menu {
+
+	margin: 5px;
+	font-weight: bold;
+}
+.menu {
+	padding: 5px;
+	font-weight: bold;
+}
+td {
+	font-weight: bold;
+	color: white;
+}
+span {
+	font-weight: bold;
+	color: black;
+}
+.td {
+	visibility: hidden;
+	color: white;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.login{
+	display: none;
+	position: fixed;
+	width: 60px;
+	height: 70px;
+	margin-left: 90%;
+	background-color: white;
+	border: 3px solid blue;
+	font-weight: bold;
+	border-radius: 10px;
+}
+.gambar-utama{
+	margin-top: 110px;
+	margin-left: 750px;
+	width: 500px;
+	height: 400px;
+}
+footer{
+	border-top: 1px solid orange;
+	text-align: center;
+	justify-content: space-between;
+	font-weight: bold;
+	background-color: #919196;
+	text-shadow: 1px 3px 5px white;
+	animation-name: huda;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	width: 100%;
+}
+@keyframes huda {
+	0% {color: white;}
+	25% {color: green;}
+	50% {color: orange;}
+	100% {color: red;}
+}
+@media (min-width: 650px) {
+		.navbar-menu {
+			font-size: 20px;
+		}
+	.menu{
+		padding: 5px;
+		font-size: 20px;
+	}
+	.navbar-logo {
+		font-size: 20px;
+
+	}
+	.gambar-utama {
+		width: 300px;
+		height: 200px;
+		margin-top: 20px;
+
+		margin-left: 100px;
+	}
+}
+
+
+@media (min-width: 1000px) {
+	.navbar-menu {
+		
+		font-size: 25px;
+	}
+	.menu{
+		padding: 5px;
+		font-size: 25px;
+	}
+	.navbar-logo {
+		font-size: 25px;
+
+	}
+	footer{
+		font-size: 25px;
+	}
+}

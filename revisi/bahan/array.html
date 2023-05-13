@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style type="text/css">
+        td{
+            font-size: 25px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 align="center">array</h1>
+    <table>
+        <tr>
+            <td>jumlah array awal :</td>
+            <td><p id="text"></p></td>
+        </tr>
+    </table>
+     <input type="text" id="push">
+    <button id="button">tambah array</button>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <td>Setelah ditambah :</td>
+            <td><p id="hasil"></p></td>
+        </tr>
+    </table>
+   
+    
+    <script type="text/javascript">
+        var x = ["hu","ha","na"];
+       document.getElementById("text").innerHTML = x;
+
+       document.getElementById("button").onclick = function () {
+         var y = document.getElementById("push").value;
+        x.push(y);
+        document.getElementById("hasil").innerHTML = x
+       }
+
+    </script>
+</body>
+</html>
